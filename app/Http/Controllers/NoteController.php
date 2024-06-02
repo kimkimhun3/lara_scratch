@@ -82,7 +82,7 @@ class NoteController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Remove the specified resource from storage. Specific ID
      */
     public function destroy(Note $note)
     {
