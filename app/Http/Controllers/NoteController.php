@@ -40,6 +40,7 @@ class NoteController extends Controller
         $note = Note::create($data);
 
         return to_route('note.index', $note)->with('message', 'Note was create');
+        //send the $note, message to the home page
     }
 
     /**
